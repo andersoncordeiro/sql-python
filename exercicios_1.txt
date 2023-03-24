@@ -1,0 +1,55 @@
+------ UTILIZANDO A BASE movies.
+
+Quais tabelas existem no banco de dados?
+
+Crie um dicionário de dados.
+
+Exiba todos os filmes
+
+Qual o filme mais novo?
+
+E o mais antigo?
+
+Quais são os 5 filmes mais bem avaliados?
+
+E os 10 piores filmes?
+
+Liste todos os filmes de drama.
+
+Existem quantos filmes de suspense?
+
+Apresente todos os filmes de Morgan Freeman
+
+
+---- UTILIZANDO a BASE MUSIC_STORE
+
+Qual artista possui mais albuns? 
+
+Existem clientes de quantos países? 
+
+Quantos clientes são brasileiros?
+
+Qual genero possui mais músicas?
+
+Qual genero possui mais albuns? 
+
+Exiba os 5 clientes que mais fizeram pedidos. Qual é o valor da maior compra?
+
+Quais os emails dos 10 clientes que mais gastaram na loja? 
+
+Qual o valor médio de cada compra? 
+
+Quantas compras estão acima da média?
+
+Vamos fazer uma playlist com as 12 músicas mais vendidas! 
+Quais foram elas? Quais os generos e os artistas?
+
+DESAFIO DO PROF: Precisamos definir 2 países para ações de marketing. 
+Para um, iremos direcionar campanhas dos albums mais caros, 
+nosso foco são os clientes que não se preocupam com o valor do pedido. 
+Para o outro grupo, que gasta menos, precisamos ser mais assertivos, 
+ecomendando albums mais baratos mas com músicas populares. 
+Qual seria sua estratégia? Quais países poderíamos atender? 
+Quais albuns iremos recomendar para cada um dos países? 
+Apresente a query (ou as queries), a tabela (ou as tabelas) 
+e justifique suas escolhas.
