@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-1871592ce80-28ffd3d956344ccf": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "movie_database.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\movie_database.db",
+				"url": "jdbc:sqlite:C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\movie_database.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

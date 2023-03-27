@@ -1,0 +1,68 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-1871592ce80-28ffd3d956344ccf": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "movie_database.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\movie_database.db",
+				"url": "jdbc:sqlite:C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\movie_database.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18715931ed7-6b42dd769124cd85": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "music-store.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\music-store.db",
+				"url": "jdbc:sqlite:C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\music-store.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18715934eca-7c22c990f4180a8c": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "restaurant_sqlite.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\restaurant_sqlite.db",
+				"url": "jdbc:sqlite:C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\restaurant_sqlite.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18715936e35-1d7a5f979e13bb7a": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "universidade.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\universidade.db",
+				"url": "jdbc:sqlite:C:\\Users\\Fabio\\Documents\\GitHub\\CLONE\\sql-python\\data\\universidade.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

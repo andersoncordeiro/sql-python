@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="movie music">
+	<entities>
+		<data-source id="sqlite_jdbc-1871592ce80-28ffd3d956344ccf">
+			<entity id="1" name="actors" fq-name="actors"/>
+			<entity id="2" name="directors" fq-name="directors"/>
+			<entity id="3" name="genres" fq-name="genres"/>
+			<entity id="4" name="movies" fq-name="movies"/>
+			<entity id="5" name="roles" fq-name="roles"/>
+		</data-source>
+		<data-source id="sqlite_jdbc-18715931ed7-6b42dd769124cd85">
+			<entity id="6" name="albums" fq-name="albums"/>
+			<entity id="7" name="artists" fq-name="artists"/>
+			<entity id="8" name="customers" fq-name="customers"/>
+			<entity id="9" name="employees" fq-name="employees"/>
+			<entity id="10" name="genres" fq-name="genres"/>
+			<entity id="11" name="invoice_lines" fq-name="invoice_lines"/>
+			<entity id="12" name="invoices" fq-name="invoices"/>
+			<entity id="13" name="media_types" fq-name="media_types"/>
+			<entity id="14" name="playlist_tracks" fq-name="playlist_tracks"/>
+			<entity id="15" name="playlists" fq-name="playlists"/>
+			<entity id="16" name="tracks" fq-name="tracks"/>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="FK_roles_actors" fq-name="roles.FK_roles_actors" type="fk" pk-ref="1" fk-ref="5"/>
+		<relation name="FK_movies_directors" fq-name="movies.FK_movies_directors" type="fk" pk-ref="2" fk-ref="4"/>
+		<relation name="FK_movies_genres_2" fq-name="movies.FK_movies_genres_2" type="fk" pk-ref="3" fk-ref="4"/>
+		<relation name="FK_roles_movies_2" fq-name="roles.FK_roles_movies_2" type="fk" pk-ref="4" fk-ref="5"/>
+		<relation name="FK_tracks_albums" fq-name="tracks.FK_tracks_albums" type="fk" pk-ref="6" fk-ref="16"/>
+		<relation name="FK_albums_artists" fq-name="albums.FK_albums_artists" type="fk" pk-ref="7" fk-ref="6"/>
+		<relation name="FK_invoices_customers" fq-name="invoices.FK_invoices_customers" type="fk" pk-ref="8" fk-ref="12"/>
+		<relation name="FK_customers_employees" fq-name="customers.FK_customers_employees" type="fk" pk-ref="9" fk-ref="8"/>
+		<relation name="FK_employees_employees" fq-name="employees.FK_employees_employees" type="fk" pk-ref="9" fk-ref="9"/>
+		<relation name="FK_tracks_genres_2" fq-name="tracks.FK_tracks_genres_2" type="fk" pk-ref="10" fk-ref="16"/>
+		<relation name="FK_invoice_lines_invoices" fq-name="invoice_lines.FK_invoice_lines_invoices" type="fk" pk-ref="12" fk-ref="11"/>
+		<relation name="FK_tracks_media_types_3" fq-name="tracks.FK_tracks_media_types_3" type="fk" pk-ref="13" fk-ref="16"/>
+		<relation name="FK_playlist_tracks_playlists" fq-name="playlist_tracks.FK_playlist_tracks_playlists" type="fk" pk-ref="15" fk-ref="14"/>
+		<relation name="FK_invoice_lines_tracks_2" fq-name="invoice_lines.FK_invoice_lines_tracks_2" type="fk" pk-ref="16" fk-ref="11"/>
+		<relation name="FK_playlist_tracks_tracks_2" fq-name="playlist_tracks.FK_playlist_tracks_tracks_2" type="fk" pk-ref="16" fk-ref="14"/>
+	</relations>
+</diagram>
