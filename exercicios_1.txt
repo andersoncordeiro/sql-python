@@ -1,6 +1,7 @@
 ------ UTILIZANDO A BASE movies.
 
-Quais tabelas existem no banco de dados?
+Quais tabelas existem no banco de dados? 
+actors, directors, genres, movies, roles
 
 Crie um dicionário de dados.
 
